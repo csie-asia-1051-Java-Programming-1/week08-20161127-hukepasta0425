@@ -35,9 +35,12 @@ public class ex03 {
 				data2[i][j]=src.nextInt();
 			}
 		}
-		
+		for(int i=0;i<=n1;i++)
+		{
+			for(int j=0;j<=m1;j++)
+			{
+				data3[i][j]=data1[i][j]+data2[i][j];
+			}
+		}
 	}
-
 }
-
-
