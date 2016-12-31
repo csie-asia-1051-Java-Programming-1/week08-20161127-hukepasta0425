@@ -42,5 +42,12 @@ public class ex03 {
 				data3[i][j]=data1[i][j]+data2[i][j];
 			}
 		}
+		for(int i=0;i<=n1;i++)
+		{
+			for(int j=0;j<=m1;j++)
+			{
+				System.out.print(data3[i][j]);
+			}
+		}
 	}
 }
